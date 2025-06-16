@@ -10,9 +10,9 @@ const Brand = (props) => {
       role={'presentation'}
       onClick={() => navigate('/')}
     >
-      {/* <h4>MUDHRA Natyalaya</h4> */}
+      {/* <h4>MUDHRA Natyalaya t</h4> */}
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="300.000000pt" height="183.000000pt" viewBox="0 0 900.000000 183.000000"
+ width="400.000000pt" height="50.000000pt" viewBox="0 0 900.000000 183.000000"
  preserveAspectRatio="xMidYMid meet">
 <metadata>
 Created by potrace 1.10, written by Peter Selinger 2001-2011
