@@ -80,9 +80,6 @@ const Header = (prop) => {
 
   return (
     <div className={styles.root}>
-      <div className={styles.headerMessageContainer}>
-        <span>{bannerMessage}</span>
-      </div>
       <Container size={'large'} spacing={'min'}>
         {/* header container */}
         <div className={styles.header}>
@@ -117,7 +114,7 @@ const Header = (prop) => {
           >
             <Icon symbol={`${mobileMenu === true ? 'cross' : 'burger'}`}></Icon>
           </div>
-          <Brand />
+<Brand />
           <div className={styles.actionContainers}>
             <button
               aria-label="Search"
