@@ -89,7 +89,7 @@
 
 .menuContainer {
     position: absolute;
-    background-color: var(--standard-white);
+    background-color: var(--standard-orange);
     width: 100%;
 
     opacity: 0;
