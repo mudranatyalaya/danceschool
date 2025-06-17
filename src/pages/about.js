@@ -16,7 +16,7 @@ const AboutPage = (props) => {
     if (elementReference) {
       window.scrollTo({
         behavior: 'smooth',
-        top: elementReference.current.offsetTop - 280,
+        top: elementReference.current.offsetTop,
       });
     }
   };
