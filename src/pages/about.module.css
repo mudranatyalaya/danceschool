@@ -13,7 +13,7 @@
     white-space: nowrap;
     border-bottom: 1px solid var(--bg-light-gray);
     position: sticky;
-    gap: 48px;
+    gap: 8px;
     top: 150px;
     background-color: var(--standard-white);
     overflow-x: auto;
