@@ -22,7 +22,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    padding: 48px 0px 48px 0px;
+    padding: 8px 0px 8px 0px;
     margin: 0 auto;
 }
 
@@ -50,7 +50,7 @@
     text-transform: uppercase;
     color: var(--standard-black);
     font-weight: 500;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     font-size: 12px;
     line-height: 15px;
     border-bottom: 2px solid transparent;
