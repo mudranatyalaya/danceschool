@@ -27,7 +27,7 @@ const AboutPage = (props) => {
         {/* Hero Container */}
         <Hero
           maxWidth={'900px'}
-          image={'/about.png'}
+          image={'/abt.png'}
           title={`Sydney \n A British brand since 1860`}
         />
 
