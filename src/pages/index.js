@@ -14,16 +14,12 @@ import Title from '../components/Title';
 import { generateMockBlogData, generateMockProductData } from '../helpers/mock';
 
 import * as styles from './index.module.css';
-import { Link, navigate } from 'gatsby';
+import { Link } from 'gatsby';
 import { toOptimizedImage } from '../helpers/general';
 
 const IndexPage = () => {
   const newArrivals = generateMockProductData(3, 'shirt');
   const blogData = generateMockBlogData(3);
-
-  const goToShop = () => {
-    navigate('/shop');
-  };
 
   return (
     <Layout disablePaddingBottom>
@@ -31,8 +27,6 @@ const IndexPage = () => {
       <Hero
         maxWidth={'500px'}
         image={'/banner1.png'}
-        ctaText={'Join Now'}
-        ctaAction={goToShop}
       />
 
       {/* Message Container */}
