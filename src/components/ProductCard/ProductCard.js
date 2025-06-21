@@ -65,19 +65,8 @@ const ProductCard = (props) => {
       </div>
       <div className={styles.detailsContainer}>
         <span className={styles.productName}>{name}</span>
-        <div className={styles.prices}>
-          <span
-            className={`${originalPrice !== undefined ? styles.salePrice : ''}`}
-          >
-            <CurrencyFormatter amount={price}></CurrencyFormatter>
-          </span>
-          {originalPrice && (
-            <span className={styles.originalPrice}>
-              <CurrencyFormatter amount={originalPrice}></CurrencyFormatter>
-            </span>
-          )}
-        </div>
-        <span className={styles.meta}>{meta}</span>
+
+
       </div>
     </div>
   );
