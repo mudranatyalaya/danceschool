@@ -8,7 +8,7 @@
     border-bottom: 1px solid var(--bg-light-gray);
     position: sticky;
     gap: 48px;
-    top: 150px;
+    top: 75px;
     background-color: var(--standard-white);
     z-index: 1;
     overflow-x: auto;
@@ -53,6 +53,6 @@
 
 @media (max-width: 800px) {
     .navContainer {
-        top: 90px;
+        top: 75px;
     }
 }

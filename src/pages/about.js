@@ -28,7 +28,7 @@ const AboutPage = (props) => {
         <Hero
           maxWidth={'900px'}
           image={'/abt.png'}
-          title={`Sydney \n A British brand since 1860`}
+          title={`Building bridges by way of Dance`}
         />
 
         <div className={styles.navContainer}>
@@ -49,16 +49,12 @@ const AboutPage = (props) => {
         <Container size={'large'} spacing={'min'}>
           <div className={styles.detailContainer} ref={historyRef}>
             <p>
-              Founded in 1860, Sydney is an innovative British brand with a
-              contemporary edge. We make timeless everyday luxury clothing.
+              Founded in 2014, Mudra Natyalaya is dedicated to teaching Bharatanatyam, a traditional dance form, originating from South India. Our founder and guru, Smt. Charanya Mahadevan, is committed to preserving and sharing this rich cultural heritage.
             </p>
             <br />
             <br />
             <p>
-              We created some of the world's first T-shirts and spent decades
-              perfecting the feel of the cotton. Today we are the only brand
-              that makes T-shirts in its own factory in the UK. And we do this
-              in the same factory we have occupied since 1937.
+            She believes in building bridges across communities and generations through dance, viewing it as the purest form of expression and joy.
             </p>
           </div>
         </Container>
