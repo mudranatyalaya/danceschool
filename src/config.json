@@ -18,49 +18,12 @@
     "youtube": "https://www.youtube.com/channel/UCEOu94Haa--QmltsSawflXg"
   },
   "paymentOptions": {
-    "visa": true,
-    "mastercard": true,
-    "amex": true
+    "visa": false,
+    "mastercard": false,
+    "amex": false
   },
   "footerLinks": [
-    {
-      "subTitle": "Info",
-      "links": [
-        {
-          "text": "About Us",
-          "link": "/about"
-        },
-        {
-          "text": "Journal",
-          "link": "/blog"
-        },
-        {
-          "text": "Privacy Policy",
-          "link": "/support#policy"
-        }
-      ]
-    },
-    {
-      "subTitle": "Support",
-      "links": [
-        {
-          "text": "FAQ",
-          "link": "/faq"
-        },
-        {
-          "text": "Contact Us",
-          "link": "/support#contact"
-        },
-        {
-          "text": "Shipping & Returns",
-          "link": "/support#returns"
-        },
-        {
-          "text": "How to use this theme",
-          "link": "/how-to-use"
-        }
-      ]
-    }
+  
   ],
   "headerLinks": [
     {

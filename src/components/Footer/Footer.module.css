@@ -1,11 +1,11 @@
 .root {
     background-color: var(--bg-dark);
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 
 .content {
-    padding-top: 72px;
-    padding-bottom: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .contentTop {
@@ -72,7 +72,10 @@
 .socialContainer {
     width: 100%;
     display: flex;
+    align-items: center;
+    align-content: center;
     flex-direction: row-reverse;
+    justify-content: center;
 }
 
 .socialIconContainer {
